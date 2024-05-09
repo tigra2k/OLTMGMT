@@ -187,9 +187,3 @@ class FD1208(FD12):
     port_ratio = 12
 
 
-if __name__ == '__main__':
-    mih = FD1204('10.32.0.41', 'SNKazW')
-    mih.get_index_onu()
-    mih.save_index_onu()
-    print(mih.list_onu)
-    print(mih.get_onu_status('00:08:36:00:e6:08'))
